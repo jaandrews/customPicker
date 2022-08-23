@@ -1,8 +1,8 @@
-﻿using CustomPicker.Core;
-using CustomPicker.Models;
+﻿using CustomPicker.Core.Models;
 using Umbraco.Extensions;
 
-namespace CustomPicker.Pickers {
+
+namespace CustomPicker.Core.Pickers {
     public class PickerPicker : BasePicker {
         private readonly Lazy<CustomPickerCollection> _customPickers;
 

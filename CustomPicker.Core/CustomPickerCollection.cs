@@ -1,5 +1,4 @@
-﻿using CustomPicker.Pickers;
-using System.Collections.Generic;
+﻿using CustomPicker.Core.Pickers;
 using Umbraco.Cms.Core.Composing;
 
 namespace CustomPicker.Core {

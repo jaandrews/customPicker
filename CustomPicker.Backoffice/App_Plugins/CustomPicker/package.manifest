@@ -1,0 +1,36 @@
+﻿{
+  "name": "CustomPicker",
+  "version": "1.0.0",
+  "allowPackageTelemetry": true
+  "propertyEditors": [
+    {
+      "alias": "CustomPicker",
+      "name": "Custom Picker",
+      "icon": "icon-tags",
+      "editor": {
+        "view": "~/App_Plugins/CustomPicker/data-type.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Picker",
+            "description": "Picker to use.",
+            "key": "picker",
+            "view": "~/App_Plugins/CustomPicker/prevalue.html"
+          },
+          {
+            "label": "Allow Multiple",
+            "description": "Allow multiple items to be selected if checked.",
+            "key": "allowMultiple",
+            "view": "boolean"
+          }
+        ]
+      }
+    }
+  ],
+  "javascript": [
+      "~/App_Plugins/CustomPicker/custom-picker.component.js",
+      "~/App_Plugins/CustomPicker/custom-tree-picker.component.js",
+      "~/App_Plugins/CustomPicker/custom-tree-picker-item.component.js"
+  ]
+}

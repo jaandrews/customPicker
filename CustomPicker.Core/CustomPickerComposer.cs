@@ -1,4 +1,4 @@
-﻿using CustomPicker.Pickers;
+﻿using CustomPicker.Core.Pickers;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.DependencyInjection;
 

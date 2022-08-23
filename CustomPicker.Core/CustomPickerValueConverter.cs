@@ -5,7 +5,7 @@ namespace CustomPicker.Core {
     public class CustomPickerValueConverter : PropertyValueConverterBase {
 
         public override bool IsConverter(IPublishedPropertyType propertyType)
-            => propertyType.EditorAlias.Equals("Bonsai.CustomPicker");
+            => propertyType.EditorAlias.Equals("CustomPicker");
 
         public override Type GetPropertyValueType(IPublishedPropertyType propertyType) {
             var config = propertyType.DataType.ConfigurationAs<Dictionary<string, object>>();

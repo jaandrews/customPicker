@@ -1,6 +1,6 @@
-﻿using CustomPicker.Models;
+﻿using CustomPicker.Core.Models;
 
-namespace CustomPicker.Pickers {
+namespace CustomPicker.Core.Pickers {
     public abstract class BaseAsyncPicker : ICustomPicker {
         public abstract Guid Key { get; }
         public abstract string Name { get; }

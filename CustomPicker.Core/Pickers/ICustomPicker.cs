@@ -1,6 +1,6 @@
-﻿using CustomPicker.Models;
+﻿using CustomPicker.Core.Models;
 
-namespace CustomPicker.Pickers {
+namespace CustomPicker.Core.Pickers {
     public interface ICustomPicker {
         Guid Key { get; }
         string Name { get; }

@@ -1,5 +1,5 @@
-﻿using CustomPicker.Models;
-using CustomPicker.Pickers;
+﻿using CustomPicker.Core.Models;
+using CustomPicker.Core.Pickers;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Extensions;
 

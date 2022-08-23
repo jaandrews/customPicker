@@ -1,8 +1,8 @@
-﻿using CustomPicker.Models;
-using CustomPicker.Pickers;
+﻿using CustomPicker.Core.Pickers;
+using CustomPicker.Core.Models;
 using Umbraco.Cms.Core.Services;
 
-namespace Seed.Components.Search.Core {
+namespace CustomPicker.Pickers {
     public class ContentTypePicker : BasePicker {
         private readonly IContentTypeService _contentTypeService;
 
