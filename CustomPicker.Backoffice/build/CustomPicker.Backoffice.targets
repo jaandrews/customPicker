@@ -1,0 +1,21 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <CustomPickerBackofficeContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\CustomPicker.Backoffice\**\*.*</CustomPickerBackofficeContentFilesPath>
+    </PropertyGroup>
+
+    <Target Name="CopyCustomPickerBackofficeAssets" BeforeTargets="Build">
+        <ItemGroup>
+            <CustomPickerBackofficeContentFiles Include="$(CustomPickerBackofficeContentFilesPath)" />
+        </ItemGroup>
+        <Message Text="Copying CustomPicker.Backoffice files: $(CustomPickerBackofficeContentFilesPath) - #@(CustomPickerBackofficeContentFiles->Count()) files" Importance="high" />
+        <Copy SourceFiles="@(CustomPickerBackofficeContentFiles)" DestinationFiles="@(CustomPickerBackofficeContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\CustomPicker.Backoffice\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    </Target>
+    
+    <Target Name="ClearCustomPickerBackofficeAssets" BeforeTargets="Clean">
+        <ItemGroup>
+            <CustomPickerBackofficeDir Include="$(MSBuildProjectDirectory)\App_Plugins\CustomPicker.Backoffice\" />
+        </ItemGroup>
+        <Message Text="Clear old CustomPicker.Backoffice data" Importance="high" />
+        <RemoveDir Directories="@(CustomPickerBackofficeDir)" />
+    </Target>
+</Project>

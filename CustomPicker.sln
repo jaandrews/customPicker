@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPicker.Backoffice", "CustomPicker.Backoffice\CustomPicker.Backoffice.csproj", "{D72E21A8-2B55-4273-8C9F-B7289E6E3547}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADC649C8-E86A-437B-9117-8D4B39CC9CF1} = {ADC649C8-E86A-437B-9117-8D4B39CC9CF1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomPicker.Core", "CustomPicker.Core\CustomPicker.Core.csproj", "{ADC649C8-E86A-437B-9117-8D4B39CC9CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72E21A8-2B55-4273-8C9F-B7289E6E3547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72E21A8-2B55-4273-8C9F-B7289E6E3547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72E21A8-2B55-4273-8C9F-B7289E6E3547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72E21A8-2B55-4273-8C9F-B7289E6E3547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC649C8-E86A-437B-9117-8D4B39CC9CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC649C8-E86A-437B-9117-8D4B39CC9CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC649C8-E86A-437B-9117-8D4B39CC9CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC649C8-E86A-437B-9117-8D4B39CC9CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42988F2B-A5AC-4573-81D9-CC28EF2F5AC1}
+	EndGlobalSection
+EndGlobal
