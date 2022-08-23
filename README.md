@@ -2,7 +2,7 @@
 This package is used to create pickers that match the look and feel of the built in umbraco picker with data pulled from any data source. See below for to add new pickers.
 
 ## Step 1 - Create the new picker class
-Extend one of the base classes.
+Create a new class that extends one of the following base classes.
 
 ### BasePicker - Used for synchronous data sources
 ```csharp
