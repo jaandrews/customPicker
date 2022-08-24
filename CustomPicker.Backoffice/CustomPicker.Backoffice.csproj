@@ -1,17 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <Authors>jaandrews</Authors>
+    <PackageVersion>1.0.0-rc</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>CustomPicker.Backoffice</Product>
     <PackageId>CustomPicker.Backoffice</PackageId>
     <Title>CustomPicker.Backoffice</Title>
-    <Description>...</Description>
+    <Description>This is an umbraco package that adds a new data type named "Custom Picker." This picker allows developers to create pickers that function like umbraco's native content picker with data from 3rd party data sources.</Description>
+    <Summary>Umbraco package that adds a new data type named "Custom Picker." This picker allows developers to create pickers that function like umbraco's native content picker with data from 3rd party data sources.</Summary>
+    <Company>Bonsai Media Group</Company>
+    <RepositoryURL>https://github.com/jaandrews/customPicker</RepositoryURL>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageTags>umbraco plugin package</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Umbraco.Cms.Web.Website" Version="10.0.1" />
     <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
