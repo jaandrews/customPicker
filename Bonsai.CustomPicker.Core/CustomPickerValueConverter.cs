@@ -1,11 +1,11 @@
 ﻿using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.PropertyEditors;
 
-namespace CustomPicker.Core {
+namespace Bonsai.CustomPicker.Core {
     public class CustomPickerValueConverter : PropertyValueConverterBase {
 
         public override bool IsConverter(IPublishedPropertyType propertyType)
-            => propertyType.EditorAlias.Equals("CustomPicker");
+            => propertyType.EditorAlias.Equals("Bonsai.CustomPicker");
 
         public override Type GetPropertyValueType(IPublishedPropertyType propertyType) {
             var config = propertyType.DataType.ConfigurationAs<Dictionary<string, object>>();

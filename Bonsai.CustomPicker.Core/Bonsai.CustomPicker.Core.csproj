@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>jaandrews</Authors>
+    <PackageVersion>1.0.0-rc.1</PackageVersion>
+    <ContentTargetFolders>.</ContentTargetFolders>
+    <Product>Bonsai.CustomPicker.Core</Product>
+    <PackageId>Bonsai.CustomPicker.Core</PackageId>
+    <Title>Bonsai.CustomPicker.Core</Title>
+    <Description>Contains the core assemblies for the Bonsai.CustomPicker.Backoffice package. Can be used to create new picker types for the picker.</Description>
+    <Company>Bonsai Media Group</Company>
+    <PackageProjectUrl>https://github.com/jaandrews/customPicker/</PackageProjectUrl>
+    <RepositoryURL>https://github.com/jaandrews/customPicker.git</RepositoryURL>
+    <PackageReleaseNotes>
+      This is a release candiate version to verify that all the files have been properly connected to nuget.
+    </PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageTags>umbraco plugin package</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl>https://github.com/jaandrews/customPicker/tree/v10/main/Bonsai.CustomPicker.Core/icon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Core" Version="10.1.0" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Umbraco.Cms.Core" Version="10.1.0" />
-    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.1.0" />
+    <ProjectReference Include="..\Bonsai.CustomPicker.Core\Bonsai.CustomPicker.Core.csproj" />
   </ItemGroup>
 
 </Project>

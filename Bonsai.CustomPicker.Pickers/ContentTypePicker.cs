@@ -1,8 +1,8 @@
-﻿using CustomPicker.Core.Pickers;
-using CustomPicker.Core.Models;
+﻿using Bonsai.CustomPicker.Core.Pickers;
+using Bonsai.CustomPicker.Core.Models;
 using Umbraco.Cms.Core.Services;
 
-namespace CustomPicker.Pickers {
+namespace Bonsai.CustomPicker.Pickers {
     public class ContentTypePicker : BasePicker {
         private readonly IContentTypeService _contentTypeService;
 

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CustomPicker.Core.Models;
+using Bonsai.CustomPicker.Core.Models;
 using Umbraco.Cms.Web.BackOffice.Controllers;
 using Umbraco.Cms.Web.BackOffice.Filters;
 using Umbraco.Cms.Web.Common.Attributes;
 
-namespace CustomPicker.Core {
+namespace Bonsai.CustomPicker.Core {
     [PluginController("CustomPicker")]
     [JsonCamelCaseFormatter]
     public class CustomPickerApiController : UmbracoAuthorizedApiController {

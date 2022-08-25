@@ -1,6 +1,6 @@
-﻿using CustomPicker.Core.Models;
+﻿using Bonsai.CustomPicker.Core.Models;
 
-namespace CustomPicker.Core.Pickers {
+namespace Bonsai.CustomPicker.Core.Pickers {
     public interface ICustomPicker {
         Guid Key { get; }
         string Name { get; }

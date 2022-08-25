@@ -1,8 +1,8 @@
-﻿using CustomPicker.Core.Models;
+﻿using Bonsai.CustomPicker.Core.Models;
 using Umbraco.Extensions;
 
 
-namespace CustomPicker.Core.Pickers {
+namespace Bonsai.CustomPicker.Core.Pickers {
     public class PickerPicker : BasePicker {
         private readonly Lazy<CustomPickerCollection> _customPickers;
 

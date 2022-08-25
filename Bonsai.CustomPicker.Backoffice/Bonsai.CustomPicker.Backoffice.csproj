@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>jaandrews</Authors>
+    <PackageVersion>1.0.0-rc.1</PackageVersion>
+    <ContentTargetFolders>.</ContentTargetFolders>
+    <Product>Bonsai.CustomPicker.Backoffice</Product>
+    <PackageId>Bonsai.CustomPicker.Backoffice</PackageId>
+    <Title>Bonsai.CustomPicker.Backoffice</Title>
+    <Description>Adds a new data type named "Custom Picker" to umbraco cms. This picker allows developers to create pickers that function like umbraco's native content picker with data from 3rd party data sources.</Description>
+    <Company>Bonsai Media Group</Company>
+    <PackageProjectUrl>https://github.com/jaandrews/customPicker/</PackageProjectUrl>
+    <RepositoryURL>https://github.com/jaandrews/customPicker.git</RepositoryURL>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageTags>umbraco plugin package</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl>https://github.com/jaandrews/customPicker/tree/v10/main/Bonsai.CustomPicker.Backoffice/icon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App_Plugins\CustomPicker\**">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+    <None Include="build\**">
+      <Pack>true</Pack>
+      <PackagePath>buildTransitive</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bonsai.CustomPicker.Core\Bonsai.CustomPicker.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,5 +1,5 @@
-﻿using CustomPicker.Core.Models;
-using CustomPicker.Core.Pickers;
+﻿using Bonsai.CustomPicker.Core.Models;
+using Bonsai.CustomPicker.Core.Pickers;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Extensions;
 

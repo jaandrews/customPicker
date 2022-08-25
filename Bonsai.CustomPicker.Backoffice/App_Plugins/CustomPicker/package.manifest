@@ -4,7 +4,7 @@
   "allowPackageTelemetry": true
   "propertyEditors": [
     {
-      "alias": "CustomPicker",
+      "alias": "Bonsai.CustomPicker",
       "name": "Custom Picker",
       "icon": "icon-tags",
       "editor": {
