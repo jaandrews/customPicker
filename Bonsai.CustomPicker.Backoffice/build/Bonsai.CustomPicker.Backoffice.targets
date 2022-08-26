@@ -1,0 +1,21 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <BonsaiCustomPickerBackofficeContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\CustomPicker\**\*.*</BonsaiCustomPickerBackofficeContentFilesPath>
+  </PropertyGroup>
+
+  <Target Name="CopyBonsaiCustomPickerBackofficeAssets" BeforeTargets="Build">
+    <ItemGroup>
+      <BonsaiCustomPickerBackofficeContentFiles Include="$(BonsaiCustomPickerBackofficeContentFilesPath)" />
+    </ItemGroup>
+    <Message Text="Copying CustomPicker files: $(BonsaiCustomPickerBackofficeContentFilesPath) - #@(BonsaiCustomPickerBackofficeContentFiles->Count()) files" Importance="high" />
+    <Copy SourceFiles="@(BonsaiCustomPickerBackofficeContentFiles)" DestinationFiles="@(BonsaiCustomPickerBackofficeContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\CustomPicker\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
+  <Target Name="ClearBonsaiCustomPickerBackofficeAssets" BeforeTargets="Clean">
+    <ItemGroup>
+      <BonsaiCustomPickerBackofficeDir Include="$(MSBuildProjectDirectory)\App_Plugins\CustomPicker\" />
+    </ItemGroup>
+    <Message Text="Clear old CustomPicker data" Importance="high" />
+    <RemoveDir Directories="@(BonsaiCustomPickerBackofficeDir)" />
+  </Target>
+</Project>
