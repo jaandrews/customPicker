@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.0-rc.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Backoffice</Product>
     <PackageId>Bonsai.CustomPicker.Backoffice</PackageId>

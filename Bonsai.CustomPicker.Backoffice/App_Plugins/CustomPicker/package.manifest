@@ -6,7 +6,7 @@
     {
       "alias": "Bonsai.CustomPicker",
       "name": "Bonsai: Custom Picker",
-      "icon": "icon-tags",
+      "icon": "icon-autofill",
       "editor": {
         "view": "~/App_Plugins/CustomPicker/data-type.html"
       },
