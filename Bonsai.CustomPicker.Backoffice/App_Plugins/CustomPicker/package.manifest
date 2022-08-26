@@ -5,7 +5,7 @@
   "propertyEditors": [
     {
       "alias": "Bonsai.CustomPicker",
-      "name": "Custom Picker",
+      "name": "Bonsai: Custom Picker",
       "icon": "icon-tags",
       "editor": {
         "view": "~/App_Plugins/CustomPicker/data-type.html"
