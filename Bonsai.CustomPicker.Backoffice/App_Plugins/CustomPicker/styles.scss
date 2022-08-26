@@ -1,0 +1,54 @@
+﻿custom-tree-picker-item {
+    .link {
+        border: 2px solid transparent;
+        border-width: 2px 0;
+        position: relative;
+        background-color: transparent;
+        transition: .3s color, .3s background-color;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: #2152a3;
+            background-color: #f9f7f5;
+            text-decoration: none;
+        }
+
+        &.selected {
+            background-color: #f5c1bc;
+            color: #1b264f;
+
+            .icon {
+                content: '\e165';
+                color: #2bc37c;
+            }
+        }
+
+        &.disabled {
+            > .icon, a {
+                opacity: .7;
+            }
+        }
+
+        a {
+            flex: 1 1 auto;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .umb-tree-item__loader {
+        margin: 0;
+    }
+}
+
+custom-tree-picker {
+    .link {
+        padding: 2px 0;
+
+        .icon {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}

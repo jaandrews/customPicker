@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Backoffice</Product>
     <PackageId>Bonsai.CustomPicker.Backoffice</PackageId>
@@ -17,6 +17,9 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://github.com/jaandrews/customPicker/tree/v10/main/Bonsai.CustomPicker.Backoffice/icon.png</PackageIconUrl>
+    <PackageReleaseNotes>
+      - added missing styles for custom picker control
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +36,11 @@
       <Pack>true</Pack>
       <PackagePath>buildTransitive</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="App_Plugins\CustomPicker\style.css" />
+    <None Remove="App_Plugins\CustomPicker\styles.scss" />
   </ItemGroup>
 
   <ItemGroup>
