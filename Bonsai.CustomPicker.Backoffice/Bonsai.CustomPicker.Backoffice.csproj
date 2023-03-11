@@ -20,6 +20,7 @@
     <PackageReleaseNotes>
       - fixed an issue with the package css caused by the scss compiler
     </PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
