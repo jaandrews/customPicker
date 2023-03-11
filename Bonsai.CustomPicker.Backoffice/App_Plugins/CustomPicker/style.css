@@ -25,8 +25,7 @@
             color: #2bc37c;
         }
 
-    custom-tree-picker-item .link.disabled &gt;
-    .icon, custom-tree-picker-item .link.disabled a {
+    custom-tree-picker-item .link.disabled > .icon, custom-tree-picker-item .link.disabled > a {
         opacity: 0.7;
     }
 
