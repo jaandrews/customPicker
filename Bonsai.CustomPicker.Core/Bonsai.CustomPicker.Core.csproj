@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Core</Product>
     <PackageId>Bonsai.CustomPicker.Core</PackageId>
@@ -15,7 +15,7 @@
     <PackageProjectUrl>https://github.com/jaandrews/customPicker/</PackageProjectUrl>
     <RepositoryURL>https://github.com/jaandrews/customPicker.git</RepositoryURL>
     <PackageReleaseNotes>
-      This is a release candiate version to verify that all the files have been properly connected to nuget.
+      - No changes were made in this release. Version was updated to keep it in sync with the backoffice package.
     </PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>readme.md</PackageReadmeFile>

@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Backoffice</Product>
     <PackageId>Bonsai.CustomPicker.Backoffice</PackageId>
@@ -18,7 +18,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://github.com/jaandrews/customPicker/tree/v10/main/Bonsai.CustomPicker.Backoffice/icon.png</PackageIconUrl>
     <PackageReleaseNotes>
-      - added missing styles for custom picker control
+      - fixed an issue with the package css caused by the scss compiler
     </PackageReleaseNotes>
   </PropertyGroup>
 
