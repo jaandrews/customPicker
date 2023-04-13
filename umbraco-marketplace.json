@@ -1,0 +1,23 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+    "AlternatePackageNames": [ "Custom Picker" ],
+    "AuthorDetails": {
+        "Name": "Jesse Andrews",
+        "ImageUrl": "https://github.com/jaandrews.png",
+        "SyncContributorsFromRepository": true
+    },
+    "Category": "Editor Tools",
+    "Description": "",
+    "DocumentationUrl": "https://github.com/jaandrews/customPicker/blob/v10/main/README.md",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/jaandrews/customPicker/issues",
+    "PackageType": "Package",
+    "Screenshots": [
+        {
+            "ImageUrl": "",
+            "Caption": ""
+        }
+    ],
+    "Tags": [ "backoffice", "property editor" ],
+    "Title": "Custom Picker"
+}
