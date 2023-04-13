@@ -14,8 +14,16 @@
     "PackageType": "Package",
     "Screenshots": [
         {
-            "ImageUrl": "",
-            "Caption": ""
+            "ImageUrl": "https://raw.githubusercontent.com/jaandrews/customPicker/v10/main/Bonsai.CustomPicker.Backoffice/screenshots/content-type-picker.png",
+            "Caption": "Content Type Picker"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/jaandrews/customPicker/v10/main/Bonsai.CustomPicker.Backoffice/screenshots/picker-control.png",
+            "Caption": "Picker Control"
+        },
+        {
+            "ImageUrl": "https://raw.githubusercontent.com/jaandrews/customPicker/v10/main/Bonsai.CustomPicker.Backoffice/screenshots/import-picker.png",
+            "Caption": "More Complex Picker Example"
         }
     ],
     "Tags": [ "backoffice", "property editor" ],
