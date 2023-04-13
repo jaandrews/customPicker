@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Backoffice</Product>
     <PackageId>Bonsai.CustomPicker.Backoffice</PackageId>
@@ -13,7 +13,7 @@
     <RepositoryURL>https://github.com/jaandrews/customPicker.git</RepositoryURL>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageTags>umbraco plugin package</PackageTags>
+    <PackageTags>umbraco;plugin;package;umbraco-marketplace</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://github.com/jaandrews/customPicker/tree/v10/main/Bonsai.CustomPicker.Backoffice/icon.png</PackageIconUrl>

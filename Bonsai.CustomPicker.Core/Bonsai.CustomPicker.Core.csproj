@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>jaandrews</Authors>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Bonsai.CustomPicker.Core</Product>
     <PackageId>Bonsai.CustomPicker.Core</PackageId>
